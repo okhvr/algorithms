@@ -1,0 +1,21 @@
+{
+  "name": "algorithms-implementations",
+  "version": "1.0.0",
+  "description": "Algorithms implementations",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "tic-tac-toe": "node src/tic-tac-toe.js",
+    "lint-fix": "pnpm eslint ./ --fix"
+  },
+  "keywords": [],
+  "author": "Olha Khavro",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.54.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
+    "eslint-plugin-promise": "^6.0.0"
+  }
+}
